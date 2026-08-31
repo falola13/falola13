@@ -13,7 +13,7 @@ usable overlap with US Eastern.
 
 ### Worth reading
 
-**[ledgerpay](https://github.com/falola13/ledgerpay)** · Go, PostgreSQL
+**[ledgerpay](https://github.com/falola13/ledgerpay)** · Go, PostgreSQL · [live demo](https://ledgerpay-gold.vercel.app)
 A payments API built around a double-entry ledger. Idempotent charge retries keyed
 on client tokens, a transactional outbox so no webhook is lost when the process dies
 mid-write, HMAC-SHA256 signed delivery with retry and dead-letter handling, and
