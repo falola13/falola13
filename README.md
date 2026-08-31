@@ -57,6 +57,6 @@ claim the title.
 ### Elsewhere
 
 Portfolio · [falola.is-a.dev](https://falola.is-a.dev)
-LinkedIn · [falola-olufemi](https://www.linkedin.com/in/falola-olufemi-87292625b)
+LinkedIn · [falola-olufemi](https://www.linkedin.com/in/falola-olufemi)
 Email · femi.deji0@gmail.com
 
