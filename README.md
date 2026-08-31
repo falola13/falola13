@@ -33,13 +33,26 @@ cookies, Google and GitHub OAuth, and TOTP-based two-factor. Swagger docs at `/d
 There's a theme in those three I didn't plan: reliable delivery of events someone is
 depending on, and the bookkeeping that proves it happened.
 
+**[dispute-triage](https://github.com/falola13/dispute-triage)** · Python, Amazon Bedrock
+The newest one, and the one pointed where I'm going. An LLM classifier for payment
+disputes — and, the actual point, the evaluation harness that decides whether its
+output is trustworthy: 90 hand-written labelled cases, per-class precision and recall
+implemented by hand rather than imported, prompt versions scored against each other,
+and a keyword baseline that runs in CI for free so the harness is exercised on every
+push. The best prompt scores a perfect macro F1, which the README treats as a problem
+rather than a headline — a benchmark everything passes has stopped measuring anything.
+
 ### What I'm learning
 
 Moving into AI engineering, and working through the AWS generative AI certification.
 The part I actually care about is evaluation — labelled sets, versioned prompts, and
 regression tests that fail the build when quality drops, because that's what decides
-whether model output is dependable enough to put in front of a user. In progress, not
-finished. I'd rather show the work than claim the title.
+whether model output is dependable enough to put in front of a user. dispute-triage
+above is that argument made concrete instead of asserted: metrics hand-implemented so
+the judgement calls stay visible, off-format answers counted as wrong rather than
+quietly dropped, and the two failures that shaped the code written up in the repo
+instead of tidied away. In progress, not finished. I'd rather show the work than
+claim the title.
 
 ### Elsewhere
 
