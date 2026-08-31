@@ -1,9 +1,9 @@
 ## Falola Olufemi Adedeji
 
-Full-stack engineer, five years, mostly on software that moves money — escrow,
-payments, data purchasing. That work rewards one obsession in particular: the parts
-nobody demos. Explicit transaction states, honest error surfaces, and a message that
-tells a user where their money actually went.
+Full-stack engineer, five years. Most of what I've shipped lives in domains where
+being wrong is expensive — escrow payments, school records, data purchases — so I
+care disproportionately about the parts nobody demos: explicit transaction states,
+honest error surfaces, and messages that tell a user where their money went.
 
 Currently contracting with **RevStar Consulting**, and building the frontend for
 **[Finaive](https://finaive.com)**, an AI-assisted escrow platform.
